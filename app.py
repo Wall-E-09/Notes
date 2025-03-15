@@ -29,8 +29,8 @@ class FuelComposition:
         self.AP = AP
 
 def calculate_factors(WP, AP):
-    KRS = 100 / (100 - WP)  # Коефіцієнт переходу до сухої маси
-    KRG = 100 / (100 - WP - AP)  # Коефіцієнт переходу до горючої маси
+    KRS = 100 / (100 - WP)  
+    KRG = 100 / (100 - WP - AP)  
     return KRS, KRG
 
 def calculate_mass(components, factor):
